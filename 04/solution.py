@@ -53,11 +53,7 @@ def check_anagrams(words):
 def main():
 
     passphrases = get_input_rows(path)
-    #wordlist = input.split()
-
     valid = check_words(passphrases)
-
-
 
     print 'There are {} valid passphrases, out of a total of {}.'.format(sum(valid), len(valid))
 
