@@ -49,6 +49,7 @@ def create_matrix(size, input = None, find_value = False):
             print 'Wrote number {} to index [{},{}]'.format(counter, row, col)
         else:
             print 'Wrote number {} to index [{},{}]'.format(value, row, col)
+            
         if direction == 'r' and not matrix[row - 1, col] == 0:
             col += 1
             counter += 1
